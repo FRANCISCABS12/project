@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    background-image: url(images/adad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+#tag{
+    font-size: 20px;
+    font-style: italic;
+}
+nav{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: 30px;
+}
+.list li a{
+    font-size: 30px;
+    margin-right: 5px;
+}
+nav ol li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border-right: 3px solid;
+    font-style: unset;
+}
+nav ol li:hover a{
+    background: #fff;
+    color: #0a5071;
+}
+.search_box{
+    display: flex;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 670px;
+    margin-top: 23px;
+
+}
+nav .search_box input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+}
+.main p{
+    text-align: center;
+    font-size: 90px;
+    color: #fefefe;
+    text-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+#shop{
+    background-color: rgb(42, 42, 42);
+    font-size: 50px;
+    color: #fefefe;
+    display: block;
+    width: 300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#shop2{
+    text-decoration: none;
+    color: #fff;
+}
+#shop2:hover{
+    color: black;
+}
+#cart{
+    color: #fff;
+    margin-top: 40px;
+}
+#message{
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#shop:hover{
+    background-color: white;
+    color: rgb(8, 6, 6);
+    width: 350px;
+    height: 120px;
+    font-size: 60px;
+}
+.foot{
+    background-color: rgb(75, 73, 73);
+}

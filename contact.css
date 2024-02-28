@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    background-image: url(images/adad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contact{
+    border: 2px solid;
+    width: 300px;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 55px;
+    font-size: 50px;
+    margin-top: 250px;
+    color: white;
+}
+.container{
+    margin-left: 200px;
+}
+#back{
+    margin-top: 40px;
+    font-size: 60px;
+    margin-left: 40px;
+}
